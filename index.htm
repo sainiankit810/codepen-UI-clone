@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodePen Clone 1</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+  />
+</head>
+<body>
+    <div id="react_page">
+
+        <!--  ----- side-bar or navigation bar ---- -->
+
+        <header class="main_nav main_sidebar">
+            <nav class="side-bar">
+                <div class="logo">
+                    <h1>C<i class="fa-brands fa-codepen"></i>DEPEN</h1>
+                </div>
+
+                <div class="navigationSideBar">
+                    <div class="upper_box">
+                        <h5>CREATE</h5>
+                        <ul class="box">
+                            <li> <a href=""><i style="font-size: 18px; margin-right: 10px; color: #717790;" class="fa-solid fa-list"></i>Pen</a></li>
+                            <hr style="outline: none; border: none;">
+                            <li> <a href=""><i style="font-size: 18px; margin-right: 10px; color: #717790;" class="fa-solid fa-layer-group"></i>Collection</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="mid_box">
+                        <p>YourWork</p>
+                        <p>Activity</p>
+                        <p>Assets</p>
+                        <p>Pinned Items</p>
+                    </div>
+
+                    <div class="lower_box">
+                        <p>Following</p>
+                        <p>Trending</p>
+                        <p>Challenges</p>
+                        <p>Spark</p>
+                    </div>
+
+                    <div class="below_lower">
+                        <p>CodePen <span class="badge">PRO</span></p>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <!-- ----- search-bar or header-bar ------ -->
+
+        <div class="header_bar">
+            <div class="search_bar search">
+                <form action="">
+                    <label class="form_label">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <input type="search" placeholder="Search CodePen.....">
+                    </label>     
+                </form>
+            </div>
+
+
+            <button class="pin_button ">
+                <i class="fa-solid fa-thumbtack"></i>
+                <i class="fa-solid fa-angle-down"></i>
+            </button>
+            
+            
+            
+            <nav class="dropdown">
+                <button class="dropdown_menu dropbtn"><i class="fa-solid fa-bars"></i></button>       
+                <div class="dropdown-content">
+                    <a href="#">Your Work</a>
+                    <a href="#">Profile</a><hr>
+                    <a href="#">New Pen</a>
+                    <a href="#">New Collection</a><hr>
+                    <a href="#">Asset Manager</a>
+                    <a href="#">Embed Theme</a><hr>
+                    <a href="#">Upgrade to</a>
+                    <a href="#">Documentation</a>
+                    <a href="#">Support</a><hr>
+                    <a href="#">Setting</a>
+                    <a href="#">Logout</a>
+
+                </div>
+            </nav>
+        </div>
+
+        <!-- main content material -->
+
+        <main>
+            <div class="width-wrapper">
+                <nav class="homepageNavBar">
+                    <ul>
+                        <a href=""><li>Following</li></a>
+                        <a href=""><li>Trending</li></a>
+                        <a href=""><li>Your Work</li></a>
+                    </ul>
+                </nav>
+
+                <section class="homepageSection">
+                    <div class="sectioncard">
+                        <div class="card">
+                            <img src="imgs1.jpg" alt="Image">
+                            <h3>Card Title</h3>
+                            <p>This is a simple card with some text.</p>
+                            <a href="#">Read More</a>
+                        </div>
+                        <div class="card">
+                            <img src="imgs1.jpg" alt="Image">
+                            <h3>Card Title</h3>
+                            <p>This is a simple card with some text.</p>
+                            <a href="#">Read More</a>
+                        </div>
+                        <div class="card">
+                            <img src="imgs1.jpg" alt="Image">
+                            <h3>Card Title</h3>
+                            <p>This is a simple card with some text.</p>
+                            <a href="#">Read More</a>
+                        </div>
+                        <div class="card">
+                            <img src="imgs1.jpg" alt="Image">
+                            <h3>Card Title</h3>
+                            <p>This is a simple card with some text.</p>
+                            <a href="#">Read More</a>
+                        </div>
+                        <div class="card">
+                            <img src="imgs1.jpg" alt="Image">
+                            <h3>Card Title</h3>
+                            <p>This is a simple card with some text.</p>
+                            <a href="#">Read More</a>
+                        </div>
+                        <div class="card">
+                            <img src="imgs1.jpg" alt="Image">
+                            <h3>Card Title</h3>
+                            <p>This is a simple card with some text.</p>
+                            <a href="#">Read More</a>
+                        </div>
+                          
+                    </div>
+                </section>
+            </div>
+        </main>
+
+
+        <!-- this is our footer section  -->
+
+        <footer class="footerStyle">
+            <div class="width-wrapper">
+                <nav class="nav-link">
+                    <h4>CodePen</h4>
+                    <a href="">About</a>
+                    <a href="">Blog</a>
+                    <a href="">Podcast</a>
+                    <a href="">Documentation</a>
+                    <a href="">Support</a>
+                    <a href="">Shop</a>
+                </nav>
+
+                <nav class="nav-link">
+                    <h4>For</h4>
+                    <a href="">Team</a>
+                    <a href="">Education</a>
+                    <a href="">Private</a>
+                    <a href="">Embeds</a>
+                    <a href="">Assets</a>
+                    <a href="">Hosting</a>
+                </nav>
+
+                <nav class="nav-link">
+                    <h4>Social</h4>
+                    <a href="">Youtube</a>
+                    <a href="">Instagram</a>
+                    <a href="">Facebook</a>
+                    <a href="">Github</a>
+                </nav>
+
+                <nav class="nav-link">
+                    <h4>Community</h4>
+                    <a href="">Spark</a>
+                    <a href="">Challenge</a>
+                    <a href="">Topic</a>
+                    <a href="">Code Of Conduct</a>
+                </nav>
+                <div class="endofthecontent">
+                    <div class="logo1">
+                        <h1>C<i class="fa-brands fa-codepen"></i>DEPEN</h1>
+                    </div>
+
+                    <p>❤️ 2023 CodePen</p>
+                    <p><em>Demo or it didn't happen</em></p>
+                    <p>Term of Service.Privacy policy</p>  
+                </div>
+            </div>
+        </footer>
+
+    </div>    
+</body>
+</html>
